@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <style>
+    th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+   </style>
+
+</head>
+
+<body style="background-color:antiquewhite;">
+    <table>
+        <form>
+            <tr>
+                <td>
+                    <div class="dropdown d-flex">
+                        <select id='dropdownid' class="form-select">
+                            <option value='POST'>POST</option>
+                            <option value='GET'>GET</option>
+                            <option value='PUT'>PUT</option>
+                            <option value='DELETE'>DELETE</option>
+                        </select>
+                    </div>
+                </td>
+
+                <td>
+
+                    <div class="form-group d-flex">
+                        <!-- <label for="exampleInputEmail1">Api Link</label> -->
+                        <input type="text" class="form-control" id="usr" placeholder="Enter Link">
+
+                    </div>
+
+                </td>
+
+            
+                   <td>
+                    <div class="form-group d-flex">
+                        <!-- <label for="exampleInputEmail1">Api Link</label> -->
+                        <input type="text" class="form-control" id="email" placeholder="Enter Email">
+
+                    </div>
+                   </td>
+
+                   <td>
+                    <div class="form-group d-flex">
+                        <!-- <label for="exampleInputEmail1">Api Link</label> -->
+                        <input type="text" class="form-control" id="password" placeholder="Enter password">
+
+                    </div>
+                   </td>
+
+                   <td>
+                    <div>
+
+                        <button type="button" class="btn btn-primary d-flex" style="justify-content: end;" id="BtnId">Submit</button>
+                    </div>
+                </td>
+
+
+            </tr>
+    </table>
+    <hr>
+
+     <!-- <table id="tblId" border="2px solid black">
+
+        <thead>
+            <tr>
+              <th scope="col">id</th>
+              <th scope="col">email</th>
+              <th scope="col">first_name</th>
+            </tr>
+          </thead>
+    
+     </table> -->
+   
+     <h2>Response</h2>
+     <div id="divId" style="border: 2px solid brown;">
+       
+     </div>
+
+
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
